@@ -1,0 +1,39 @@
+------------------------Grid Classes------------------------
+Responsive Containers
+
+.container-sm	100%	540px	720px	960px	1140px	1320px
+.container-md	100%	100%	720px	960px	1140px	1320px
+.container-lg	100%	100%	100%	960px	1140px	1320px
+.container-xl	100%	100%	100%	100%	1140px	1320px
+.container-xxl	100%	100%	100%	100%	100%	1320px
+
+------------------------------------------------------------
+
+----------------Bootstrap 5 Text/Typography-----------------
+default font-size of 1rem
+default line-height is 1.5
+
+<h1> - <h6> (.h1 to .h6) 	: Chữ đậm và dày hơn .
+.display-1 to .display-6 	: Làm nổi bật hơn heading bình thường . (larger font-size and lighter font-weight)
+<small> or .small        	: Tạo ra đoạn text nhỏ hơn của bất kì heading nào .
+<mark> or .mark          	: Thẻ đánh dấu (bg màu vàng và có padding) .
+ <abbr>                  	: Thẻ đánh dấu, thêm dấu chấm dưới text và hiện dấu hỏi khi hover vào .
+<blockquote> or .blockquote 	: Thẻ trích dẫn .
+<dl> 				: In đậm và để các nội dung chính .
+<code>				: Chứa code và những thứ có liên quan đến code ( các tag , element , atribute , ...)
+<kbd>				: Đéo biết nhưng trên web nó ví dụ dùng để làm nổi bật tổ hợp phím ( Tự lên mà coi)
+<pre>				: Đéo biết để làm gì .
+.lead				: Làm nổi bật một đoạn văn	
+.text-start			: Căn trái văn bản
+.text-break			: Ngăn văn bản dài phá vỡ bố cục
+.text-center			: Căn giữa văn bản
+.text-decoration-none		: Xóa bỏ gạch chân của link	
+.text-end			: Căn phải văn bản
+.text-nowrap			: Văn bản không ngắt dòng
+.text-lowercase			: In thường văn bản	
+.text-uppercase			: In hoa văn bản	
+.text-capitalize		: In hoa chữ cái đầu của các từ trong văn bản
+.initialism			: Dùng trong thẻ abbr, làm cho chữ nhỏ hơn .
+.list-unstyled			: Làm việc với thẻ <ul> và <ol>, bỏ dấu chấm của các đề mục (search đi sẽ hiểu)
+.list-inline-item		: Đặt tất cả các thẻ <li> có class này lên trên 1 dòng
+------------------------------------------------------------
