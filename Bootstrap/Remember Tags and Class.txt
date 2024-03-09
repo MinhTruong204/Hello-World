@@ -9,7 +9,7 @@ Responsive Containers
 
 ------------------------------------------------------------
 
-----------------Bootstrap 5 Text/Typography-----------------
+----------------------Text/Typography-----------------------
 default font-size of 1rem
 default line-height is 1.5
 
@@ -37,3 +37,70 @@ default line-height is 1.5
 .list-unstyled			: Làm việc với thẻ <ul> và <ol>, bỏ dấu chấm của các đề mục (search đi sẽ hiểu)
 .list-inline-item		: Đặt tất cả các thẻ <li> có class này lên trên 1 dòng
 ------------------------------------------------------------
+
+---------------------Text Color-----------------------------
+
+*Meaning :
+.text-muted, .text-primary, .text-success, .text-info, .text-warning,
+.text-danger, .text-secondary, .text-white, .text-dark, .text-body (default body color/often black) and .text-light
+
+*Opacity :  .text<color><percent> 
+
+*Background : .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light.
+
+       .text-bg-color : Thêm background và sử dụng text color thích hợp .
+
+------------------------------------------------------------
+
+-----------------------Table--------------------------------
+Dùng cho thẻ table
+
+.table : Thêm css cơ bản cho 1 table 
+.table-striped : Thêm sọc so le cho table
+.table-bordered : Thêm boder giữa các dòng và cột 
+.table-hover : hover vao sẽ làm nổi bật dòng đó
+.table-dark :Bảng đen
+.table-borderless : Bỏ boder 
+*The contextual classes : Css table theo ngữ cảnh 
+	.table-primary	Blue: Indicates an important action
+	.table-success	Green: Indicates a successful or positive action
+	.table-danger	Red: Indicates a dangerous or potentially negative action
+	.table-info	Light blue: Indicates a neutral informative change or action
+	.table-warning	Orange: Indicates a warning that might need attention
+	.table-active	Grey: Applies the hover color to the table row or table cell
+	.table-secondary	Grey: Indicates a slightly less important action
+	.table-light	Light grey table or table row background
+	.table-dark	Dark grey table or table row background
+
+*Table Head Colors : Có thể dùng contextual để css cho head table
+
+.table-sm : Tạo table nhỏ bằng cách cắt bớt padding dòng đi 1 nửa 
+.table-responsive : Thêm thanh cuộn cho table khi cần (Quá nhiều cột chẳng hạn )
+	.table-responsive-sm	< 576px
+	.table-responsive-md	< 768px
+	.table-responsive-lg	< 992px
+	.table-responsive-xl	< 1200px
+	.table-responsive-xxl	< 1400px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
